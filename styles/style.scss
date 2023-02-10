@@ -5,6 +5,38 @@
     list-style: none;
 }
 
+:root {
+    --primary-color: #191d2b;
+    --secondary-color: #3b3054;
+    --white-color: #fff;
+    --black-color: #000;
+    --grey0-color: #f5f5f5;
+    --grey1-color: #ebebeb;
+    --grey2-color: #dbdbdb;
+    --grey3-color: #a4a4a4;
+    --grey4-color: #808080;
+    --grey5-color: #4b4b4b;
+    --grey6-color: #2f3542;
+    // --font-light-color: #a8dadc;
+    // --font-dark-color: #2f3542;
+    // --font-semi-dark-color: #4b6584;
+    // --border-color: #dbdbdb;
+    // --background-dark-color: #10121A;
+    // --background-dark-grey: #191D2B;
+    // --background-light-color: #F1F1F1;
+    // --background-light-color-2: rgba(3,127,255,.3);
+    // --background-light-color-3: rgba(3,127,255,.6);
+    // --background-light-color-4: rgba(3,127,255,.12);
+    // --scrollbar-bg-color: #383838;
+    // --scrollbar-thump-color: #6b6b6b;
+    // --scrollbar-track-color: #383838;
+    --br-sm-2: 14px;
+}
+
 body {
+    background-color: var(--primary-color);
     font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    color: var(--white-color);
+    transition: all .4s ease-in-out;
 }
